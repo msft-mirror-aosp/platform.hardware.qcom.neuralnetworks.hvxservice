@@ -21,6 +21,7 @@ cc_binary {
     relative_install_path: "hw",
     proprietary: true,
     init_rc: ["android.hardware.neuralnetworks@1.0-service-hvx.rc"],
+    enabled: false,
     srcs: [
         "Device.cpp",
         "HexagonController.cpp",
